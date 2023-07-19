@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="heading"><h1>Employee Management System</h1></div>
+    <div class = " container">
+        <div class="inputs">
+            <form action="http://127.0.0.1:3000/main.html">
+                <div id = "first" class="item">
+                    <label for="Designation"  class="label"> Designation</label>
+                    <select >
+                      <option value="Supervisor">Supervisor</option>
+                      <option value="Senior manager">Senior manager</option>
+                      <option value="HR">HR</option>
+                      <option value="Placement coordinator">Placement coordinator</option>
+                      <option value="Trainer">Trainer</option>
+                    </option>
+                    </select></div>
+              <div id = "second" class="item" >
+                 <label for="Branch" class="label" > Branch</label>
+                    <select >
+                        <option value="Bangalore">Bangalore</option>
+                          <option value="Pune">Pune</option>
+                          <option value="Vijaypur">Vijaypur</option>
+                          <option value="Mysore">Mysore</option>
+                          
+                        </option>
+                        </select></div>
+              <div id = "third" class="item"> 
+                 <label for="Password" id ="third" class="label"> Password</label>
+                        <input type="password" id="pass" >
+                         <input type="checkbox" class="checkbox" onclick="myFunction()"><p>show password</p>
+              <div id = "btn"><button action>Submit</button></div>
+              </form>
+        </div>
+    <script src="./index.js"></script>
+</body>
+</html>

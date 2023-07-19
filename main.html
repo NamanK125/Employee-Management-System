@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <style>
+     table, th,td{  
+          border:1px solid black;;
+          border-collapse: collapse;
+          width: 100%;
+        }
+      .container{
+        display: flex;
+        margin: 30px;
+        justify-content: center;
+      }
+      .item{
+        margin: 10px;
+      }
+      select{
+        border-radius: 20px;
+        background-color: grey;
+        color: white;
+      }
+    </style>
+</head>
+<body>
+   <div class="heading"><h1>Kairos Integrater Solution pvt. ltd.</h1></div>
+     <div class="inputs">
+      <div class="container">
+          
+                <div id = "first" class="item">
+                    <label for="Designation"  class="label"> Designation</label>
+                    <select >
+                      <option value="Supervisor">Supervisor</option>
+                      <option value="Senior manager">Senior manager</option>
+                      <option value="HR">HR</option>
+                      <option value="Placement coordinator">Placement coordinator</option>
+                      <option value="Trainer">Trainer</option>
+                    
+                    </select></div>
+              <div id = "second" class="item" >
+                 <label for="Branch" class="label" > Branch</label>
+                    <select >
+                        <option value="Bangalore">Bangalore</option>
+                          <option value="Pune">Pune</option>
+                          <option value="Vijaypur">Vijaypur</option>
+                          <option value="Mysore">Mysore</option>
+                        </select></div>
+           </div>
+   <table >
+        <tr>
+          <th>Name</th>
+          <th>office</th>  
+          <th>positon</th>
+          <th>DOB</th>
+          <th>Education</th>
+          <th>Prior work experience</th>
+          <th>Joining Date</th>
+          <th>Phone no.</th>
+          <th>Email Address</th>
+          <th>Address</th>
+        </tr>
+      </table>
+</body>
+</html>
